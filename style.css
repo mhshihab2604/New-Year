@@ -13,12 +13,15 @@
    background-repeat: no-repeat;
    background-size: cover;
    height: 800px;    
+   width: 1900px;
    text-align: right; 
    padding-bottom: 100px;
+   margin-left: 150px;
  }
 .banner{
    margin-right: 100px;
    margin-top: 180px;
+   padding-right: 250px;
 }
 .banner h1{
    color: #151414;
@@ -35,7 +38,8 @@
    font-weight: 400;
    line-height: 26px;
    margin-top: 20px;
-}
+} 
+
 .btn-1{
    width: 160px;
    height: 64px;
@@ -50,23 +54,49 @@
 }
 .main{
    display: flex;
-   justify-content: space-around;
-   align-items: center;
-   margin-top: 100px;
+   justify-content: center;
+   gap: 105px;
+   margin: 130px 0;
 }
-.banner-1 h1{
+.person{
+   height: 724px;
+   width: 569px;
+   display: flex;
+}
+.image-2{
+   position: absolute;
+}
+.background{
+   width: 527.929px;
+   height: 527.929px;
+   border-radius: 527.929px;
+   background: linear-gradient(0deg, #fcded3 0%, rgba(0, 95, 172, 0.00) 100%);
+   align-self: self-end;
+   margin-left: 22px;
+}
+.failure-item-title {
    color: #151414;
    font-size: 40px;
    font-weight: 700;
-   width: 288px;
 }
-.banner-1 .paragraph{
+
+.failure-item-description {
    color: #444343;
    font-size: 16px;
    font-weight: 400;
-   line-height: 26px;
-   margin-top: 20px;
-   margin-bottom: 20px;
+   margin-top: 25px;
+}
+
+.failure-item-list {
+   color: #444343;
+   font-size: 16px;
+   font-weight: 400;
+   list-style: none;
+   margin-top: 16px;
+}
+
+.failure-item {
+   margin-top: 370px;
 }
 .head{
    text-align: center;
@@ -80,15 +110,12 @@
    margin-top: 40px;
 }
 .about{
-   background-image: url('images/watch.png');
+   background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('images/watch.png');
    background-repeat: no-repeat;
    margin: 100px auto;
    width: 1140px;
    height: 300px;
-   border-radius: 8px;
-   background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
-   
-   
+   border-radius: 8px;  
 }
 .about h1{
    color: #FFF;
