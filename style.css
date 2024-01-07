@@ -53,7 +53,8 @@
 .main{
    display: flex;
    justify-content: center;
-   gap: 105px;
+   align-items: center;
+   gap: 80px;
    margin: 130px 0;
 }
 .person{
@@ -68,33 +69,22 @@
    width: 527.929px;
    height: 527.929px;
    border-radius: 527.929px;
-   background: linear-gradient(0deg, #fcded3 0%, rgba(0, 95, 172, 0.00) 100%);
+   background: url(<path-to-image>), #fcded3 50% / cover no-repeat;
    align-self: self-end;
    margin-left: 22px;
 }
-.failure-item-title {
+.selector h3{
    color: #151414;
    font-size: 40px;
    font-weight: 700;
 }
-
-.failure-item-description {
+.selector p , ul{
+   width: 416px;
    color: #444343;
    font-size: 16px;
    font-weight: 400;
-   margin-top: 25px;
-}
-
-.failure-item-list {
-   color: #444343;
-   font-size: 16px;
-   font-weight: 400;
-   list-style: none;
-   margin-top: 16px;
-}
-
-.failure-item {
-   margin-top: 370px;
+   line-height: 26px;
+   margin-top: 20px;
 }
 .head{
    text-align: center;
